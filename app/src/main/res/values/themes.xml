@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Ecallcopy" parent="Theme.Material3.DayNight.NoActionBar">
+
+            <!-- Primary brand color. -->
+            <item name="colorPrimary">@color/purple_500</item>
+            <item name="colorPrimaryVariant">@color/purple_700</item>
+            <item name="colorOnPrimary">@color/white</item>
+            <!-- Secondary brand color. -->
+            <item name="colorSecondary">@color/teal_200</item>
+            <item name="colorSecondaryVariant">@color/teal_700</item>
+            <item name="colorOnSecondary">@color/black</item>
+            <!-- Status bar color. -->
+            <item name="android:statusBarColor">@color/red</item>
+            <!-- Customize your theme here. -->
+
+    </style>
+
+    <style name="Theme.Ecallcopy" parent="Base.Theme.Ecallcopy" />
+
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ecallbg</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.Ecallcopy</item>
+    </style>
+
+
+</resources>
